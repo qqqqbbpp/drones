@@ -14,7 +14,7 @@
     --small-16x9: calc(1rem + 16/9 * 0.25svh + 0.25svw);
 
     --blue: #3399ff;
-    --purple: #cc00cc;
+    --purple: #cc00cc;;
 }
 
 * {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-p, .MafsView, table, .katex-display {
+p, .MafsView, table, .katex-display, .w-tc-editor {
     margin: 0 0 2.5svh!important;
 }
 
@@ -164,6 +164,17 @@ table, td {
 
 .MafsView:active {
     cursor: grabbing;
+}
+
+.input {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+input[type="text"] {
+    border: #000 solid 1px;
+    width: 5svw;
 }
 
 .button {

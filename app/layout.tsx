@@ -9,8 +9,8 @@ import "./styles/16x9.css";
 const ptSerif = PT_Serif({ subsets: ['cyrillic'], weight: '400', style: ['normal', 'italic'], display: 'swap', variable: '--pt-serif' });
 
 export const metadata: Metadata = {
-    title: "Math",
-    description: "Mafs and latex math app"
+    title: "Drones",
+    description: "Drones hackathon tasks"
 };
 
 export default function RootLayout({

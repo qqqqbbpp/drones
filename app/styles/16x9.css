@@ -11,7 +11,7 @@
         font-size: var(--large-16x9);
     }
 
-    p, .katex-display, summary, li::marker, button, a, table {
+    p, .katex-display, summary, li::marker, button, a, table, input[type="text"] {
         font-size: var(--medium-16x9);
     }
 
